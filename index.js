@@ -3,7 +3,6 @@
 var fs = require('fs');
 var path = require('path');
 var async = require('async');
-var range = require('range');
 
 var defaultOpts = {
   find: 'higher',
