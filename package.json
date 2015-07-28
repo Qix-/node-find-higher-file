@@ -1,7 +1,7 @@
 {
   "name": "find-higher-file",
   "description": "Traverses a path to find a file in a higher directory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Qix (http://github.com/qix-)",
   "keywords": [
     "file",
