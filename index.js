@@ -13,7 +13,8 @@ var defaultOpts = {
 module.exports = function findHigherFile(file, from, opts, cb) {
   switch (arguments.length) {
   case 0:
-  case 1: return;
+  case 1:
+    throw new Error('invalid arguments');
   case 2:
     cb = from;
     from = process.cwd();
